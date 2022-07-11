@@ -7,7 +7,7 @@ public class Main {
         var client = HttpClient.newHttpClient();
 
         var request = HttpRequest
-                                    .newBuilder(URI.create("https://imdb-api.com/en/API/Top250Movies/k_lo1tm5nf"))
+                                    .newBuilder(URI.create("https://imdb-api.com/en/API/Top250Movies/<API_KEY>"))
                                     .GET()
                                     .build();
 
