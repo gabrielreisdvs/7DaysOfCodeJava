@@ -12,6 +12,8 @@ public class Main {
 
         var client = HttpClient.newHttpClient();
 
+        // adicionando comentario
+
         var request = HttpRequest
                                     .newBuilder(URI.create(url))
                                     .GET()
